@@ -1,0 +1,147 @@
+@import '../variables';
+
+.home {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../../images/hero-bg.jpg') center/cover;
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+
+    &__content {
+      max-width: 800px;
+      margin: 0 auto;
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+
+        @include responsive(mobile) {
+          font-size: 2rem;
+        }
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .services-preview {
+    padding: 4rem 0;
+    background-color: $background-color;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      color: $text-color;
+    }
+
+    &__cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    @include responsive(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &__icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: $primary-color;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $text-color;
+      opacity: 0.8;
+    }
+  }
+
+  .why-us {
+    padding: 4rem 0;
+    background-color: lighten($primary-color, 45%);
+
+    h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      color: $text-color;
+    }
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    @include responsive(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .feature {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      color: $primary-color;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $text-color;
+      opacity: 0.8;
+    }
+  }
+
+  .about-preview {
+    padding: 4rem 0;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: $text-color;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      color: $text-color;
+      opacity: 0.8;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+    }
+  }
+} 

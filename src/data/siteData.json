@@ -1,0 +1,169 @@
+{
+  "siteName": "Pawfect Grooming",
+  "siteDescription": "Salon de toilettage professionnel pour chiens et chats",
+  "contact": {
+    "address": "123 Rue des Animaux, 75001 Paris",
+    "phone": "01 23 45 67 89",
+    "email": "contact@pawfect-grooming.fr",
+    "hours": {
+      "monday": "9h00 - 19h00",
+      "tuesday": "9h00 - 19h00",
+      "wednesday": "9h00 - 19h00",
+      "thursday": "9h00 - 19h00",
+      "friday": "9h00 - 19h00",
+      "saturday": "10h00 - 18h00",
+      "sunday": "Fermé"
+    }
+  },
+  "homePage": {
+    "hero": {
+      "title": "Bienvenue chez Pawfect Grooming",
+      "subtitle": "Le salon de toilettage qui prend soin de vos animaux avec amour",
+      "ctaText": "Prendre rendez-vous"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Découvrez nos prestations de toilettage professionnel",
+      "items": [
+        {
+          "id": 1,
+          "title": "Toilettage Complet",
+          "description": "Bain, coupe, brushing et finitions",
+          "price": "À partir de 45€",
+          "icon": "🛁"
+        },
+        {
+          "id": 2,
+          "title": "Coupe Simple",
+          "description": "Coupe aux ciseaux ou à la tondeuse",
+          "price": "À partir de 35€",
+          "icon": "✂️"
+        },
+        {
+          "id": 3,
+          "title": "Bain & Brushing",
+          "description": "Shampoing adapté et brushing soigné",
+          "price": "À partir de 30€",
+          "icon": "🚿"
+        }
+      ]
+    },
+    "about": {
+      "title": "À Propos de Nous",
+      "description": "Des professionnels passionnés à votre service",
+      "ctaText": "En savoir plus"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Des prestations adaptées à vos besoins"
+    },
+    "services": [
+      {
+        "id": 1,
+        "name": "Toilettage Complet",
+        "description": "Notre service phare inclut un bain avec des produits de qualité, une coupe personnalisée selon la race et les préférences du propriétaire, et des finitions soignées.",
+        "price": "45",
+        "duration": "2-3 heures",
+        "image": "/images/services/toilettage-complet.jpg",
+        "includes": [
+          "Bain avec shampoing adapté",
+          "Coupe aux ciseaux ou à la tondeuse",
+          "Brushing",
+          "Coupe des ongles",
+          "Nettoyage des oreilles"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Coupe Simple",
+        "description": "Une coupe rapide et efficace pour entretenir la beauté de votre animal.",
+        "price": "35",
+        "duration": "1-2 heures",
+        "image": "/images/services/coupe-simple.jpg",
+        "includes": [
+          "Coupe aux ciseaux ou à la tondeuse",
+          "Brushing",
+          "Coupe des ongles"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bain & Brushing",
+        "description": "Un soin complet pour la peau et le pelage de votre animal.",
+        "price": "30",
+        "duration": "1 heure",
+        "image": "/images/services/bain-brushing.jpg",
+        "includes": [
+          "Bain avec shampoing adapté",
+          "Brushing soigné",
+          "Parfumage léger"
+        ]
+      }
+    ],
+    "additionalInfo": {
+      "title": "Informations Complémentaires",
+      "content": "Tous nos services sont réalisés avec des produits de qualité professionnelle, adaptés à la peau et au pelage de votre animal. Nous prenons le temps nécessaire pour que votre compagnon se sente à l'aise et reçoive les meilleurs soins possibles."
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Notre Histoire",
+      "subtitle": "Une passion pour le bien-être animal depuis 2010"
+    },
+    "history": {
+      "title": "Notre Parcours",
+      "content": "Fondé en 2010, Pawfect Grooming est né de la passion pour les animaux et du désir d'offrir un service de toilettage professionnel et attentionné. Notre équipe de toiletteurs expérimentés s'engage à prendre soin de vos compagnons avec amour et expertise."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "id": 1,
+          "title": "Bien-être Animal",
+          "description": "La sécurité et le confort de vos animaux sont notre priorité absolue.",
+          "icon": "❤️"
+        },
+        {
+          "id": 2,
+          "title": "Professionnalisme",
+          "description": "Une équipe qualifiée et expérimentée à votre service.",
+          "icon": "👔"
+        },
+        {
+          "id": 3,
+          "title": "Qualité",
+          "description": "Des produits de qualité et des soins attentionnés.",
+          "icon": "✨"
+        }
+      ]
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "members": [
+        {
+          "id": 1,
+          "name": "Marie Dupont",
+          "role": "Fondatrice & Toiletteuse",
+          "description": "15 ans d'expérience dans le toilettage canin et félin.",
+          "image": "/images/team/marie.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Thomas Martin",
+          "role": "Toiletteur",
+          "description": "Spécialiste des races à poils longs.",
+          "image": "/images/team/thomas.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Sophie Bernard",
+          "role": "Toiletteuse",
+          "description": "Experte en toilettage félin.",
+          "image": "/images/team/sophie.jpg"
+        }
+      ]
+    }
+  }
+} 

@@ -1,0 +1,135 @@
+@import '../variables';
+
+.contact-page {
+  .contact-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('../../images/contact-bg.jpg') center/cover;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+
+      @include responsive(mobile) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+  }
+
+  .contact-content {
+    padding: 4rem 0;
+    background-color: $background-color;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+
+    @include responsive(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .contact-form {
+    h2 {
+      color: $primary-color;
+      margin-bottom: 1.5rem;
+    }
+
+    .form-success {
+      background-color: lighten($accent-color, 40%);
+      color: darken($accent-color, 10%);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+      }
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+
+  .contact-info {
+    h2 {
+      color: $primary-color;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .info-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+
+    &__icon {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: $primary-color;
+    }
+
+    &__content {
+      h3 {
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+      }
+
+      p {
+        color: $text-color;
+        opacity: 0.8;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .map-container {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+
+    .map-placeholder {
+      background-color: lighten($primary-color, 40%);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $primary-color;
+      font-weight: bold;
+    }
+  }
+} 
