@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pawfect-Grooming/static/css/main.29cb0643.css",
+    "main.js": "/Pawfect-Grooming/static/js/main.64678c27.js",
+    "static/media/hero-bg.png": "/Pawfect-Grooming/static/media/hero-bg.1ef0da44a15b5af334ab.png",
+    "static/media/resultat1.jpg": "/Pawfect-Grooming/static/media/resultat1.c5e5c0065a2e1bb66ce8.jpg",
+    "static/media/resultat2.webp": "/Pawfect-Grooming/static/media/resultat2.ec59d0b048308251a752.webp",
+    "static/media/Bain-brushing.webp": "/Pawfect-Grooming/static/media/Bain-brushing.3aec07c34819a8061585.webp",
+    "static/media/resultat3.webp": "/Pawfect-Grooming/static/media/resultat3.e387464a8fbaeaec95c8.webp",
+    "static/media/coupe-simple.jpg": "/Pawfect-Grooming/static/media/coupe-simple.435e29c421565e53307b.jpg",
+    "static/media/resultat1.webp": "/Pawfect-Grooming/static/media/resultat1.98f47eaad8b5628cfcec.webp",
+    "static/media/toilettage-complet.jpeg": "/Pawfect-Grooming/static/media/toilettage-complet.fa34bf4b666c305b0fb2.jpeg",
+    "index.html": "/Pawfect-Grooming/index.html",
+    "main.29cb0643.css.map": "/Pawfect-Grooming/static/css/main.29cb0643.css.map",
+    "main.64678c27.js.map": "/Pawfect-Grooming/static/js/main.64678c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29cb0643.css",
+    "static/js/main.64678c27.js"
+  ]
+}
