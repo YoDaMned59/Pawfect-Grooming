@@ -2,16 +2,15 @@
 
 .services-page {
   .services-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('/images/services-bg.jpg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../../images/hero-bg.png') center 30%/cover;
     color: white;
     padding: 4rem 0;
     text-align: center;
+    min-height: 60vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 40vh;
 
     h1 {
       font-size: 2.5rem;
@@ -37,9 +36,32 @@
   .services-list {
     padding: 4rem 0;
     background-color: $background-color;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+      max-width: 90%;
+    }
   }
 
   .service-card {
@@ -56,18 +78,28 @@
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     }
 
-    img {
-      width: 64px;
-      height: 64px;
-      margin: 2rem auto;
-      display: block;
+    &__image {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover img {
+        transform: scale(1.05);
+      }
     }
 
     h3 {
       color: $primary-color;
       font-size: 1.5rem;
       font-weight: 600;
-      margin-bottom: 1rem;
+      margin: 1.5rem 1.5rem 1rem;
       text-align: center;
     }
 
@@ -119,6 +151,8 @@
 
     .btn-reserver {
       background: $primary-color;
+      display: flex;
+      justify-content: center;
       color: white;
       border: none;
       padding: 1rem 2rem;
@@ -136,23 +170,26 @@
     }
   }
 
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
+  .services-info {
+    padding: 4rem 2rem;
+    background-color: lighten($primary-color, 45%);
+    text-align: center;
 
-    @media (max-width: 1024px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    &__content {
+      max-width: 800px;
+      margin: 0 auto;
 
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-      padding: 1rem;
-      max-width: 90%;
+      h2 {
+        color: $primary-color;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        color: $text-color;
+        font-size: 1.1rem;
+        line-height: 1.8;
+      }
     }
   }
 
@@ -222,4 +259,4 @@
       margin-right: auto;
     }
   }
-} 
+}

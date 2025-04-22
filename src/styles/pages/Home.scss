@@ -3,17 +3,22 @@
 .home {
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../../images/hero-bg.jpg') center/cover;
+                url('../../images/hero-bg.png') center 30%/cover;
     color: white;
-    padding: 6rem 0;
+    padding: 4rem 0;
     text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &__content {
       max-width: 800px;
       margin: 0 auto;
+      padding: 0 2rem;
 
       h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom: 1rem;
 
         @include responsive(mobile) {
@@ -22,8 +27,8 @@
       }
 
       p {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
         opacity: 0.9;
       }
     }
@@ -126,7 +131,10 @@
     padding: 4rem 0;
     text-align: center;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
     h2 {
       margin-bottom: 1.5rem;
@@ -138,10 +146,12 @@
       color: $text-color;
       opacity: 0.8;
       line-height: 1.6;
+      padding: 0 2rem;
     }
 
     .btn {
       display: inline-block;
+      margin-bottom: 1rem;
     }
   }
 } 

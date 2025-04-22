@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import siteData from '../data/siteData.json';
 import '../styles/pages/Services.scss';
 
@@ -36,7 +37,14 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                <img src={service.image} alt={service.name} />
+                <div className="service-card__image">
+                  <img 
+                    src={require(`../images/services/${service.name === "Toilettage Complet" ? "toilettage-complet.jpeg" : 
+                               service.name === "Coupe Simple" ? "coupe-simple.jpg" : 
+                               "Bain-brushing.webp"}`)}
+                    alt={service.name} 
+                  />
+                </div>
                 <h3>{service.name}</h3>
                 <p className="description">{service.description}</p>
                 <p className="duration">{service.duration}</p>
@@ -46,7 +54,7 @@ const Services = () => {
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
-                <button className="btn-reserver">Réserver</button>
+                  <Link to="/contacts" className="btn-reserver">Réserver</Link>
               </motion.div>
             ))}
           </div>

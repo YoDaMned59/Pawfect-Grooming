@@ -2,11 +2,15 @@
 
 .contact-page {
   .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('../../images/contact-bg.jpg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../../images/hero-bg.png') center 30%/cover;
     color: white;
     padding: 4rem 0;
     text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     h1 {
       font-size: 2.5rem;

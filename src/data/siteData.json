@@ -66,7 +66,7 @@
         "description": "Notre service phare inclut un bain avec des produits de qualité, une coupe personnalisée selon la race et les préférences du propriétaire, et des finitions soignées.",
         "price": "45",
         "duration": "2-3 heures",
-        "image": "/images/services/toilettage-complet.jpg",
+        "image": "../../images/services/toilettage-complet.jpeg",
         "includes": [
           "Bain avec shampoing adapté",
           "Coupe aux ciseaux ou à la tondeuse",
@@ -81,7 +81,7 @@
         "description": "Une coupe rapide et efficace pour entretenir la beauté de votre animal.",
         "price": "35",
         "duration": "1-2 heures",
-        "image": "/images/services/coupe-simple.jpg",
+        "image": "/data/siteData/coupe-simple.jpg",
         "includes": [
           "Coupe aux ciseaux ou à la tondeuse",
           "Brushing",
@@ -94,7 +94,7 @@
         "description": "Un soin complet pour la peau et le pelage de votre animal.",
         "price": "30",
         "duration": "1 heure",
-        "image": "/images/services/bain-brushing.jpg",
+        "image": "/data/siteData/bain-brushing.webp",
         "includes": [
           "Bain avec shampoing adapté",
           "Brushing soigné",
@@ -139,29 +139,20 @@
         }
       ]
     },
-    "team": {
-      "title": "Notre Équipe",
-      "members": [
+    "results": {
+      "title": "Nos Résultats",
+      "results": [
         {
           "id": 1,
-          "name": "Marie Dupont",
-          "role": "Fondatrice & Toiletteuse",
-          "description": "15 ans d'expérience dans le toilettage canin et félin.",
-          "image": "/images/team/marie.jpg"
+          "image": "/data/siteData/resultat1.jpg"
         },
         {
           "id": 2,
-          "name": "Thomas Martin",
-          "role": "Toiletteur",
-          "description": "Spécialiste des races à poils longs.",
-          "image": "/images/team/thomas.jpg"
+          "image": "/data/siteData/resultat2.jpg"
         },
         {
           "id": 3,
-          "name": "Sophie Bernard",
-          "role": "Toiletteuse",
-          "description": "Experte en toilettage félin.",
-          "image": "/images/team/sophie.jpg"
+          "image": "/data/siteData/resultat3.webp"
         }
       ]
     }

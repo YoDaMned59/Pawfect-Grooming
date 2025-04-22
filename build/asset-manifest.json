@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Pawfect-Grooming/static/css/main.fb7376ec.css",
+    "main.js": "/Pawfect-Grooming/static/js/main.3a3d418d.js",
+    "static/media/about-bg.jpg": "/Pawfect-Grooming/static/media/about-bg.da6fad554ad2350580bf.jpg",
+    "static/media/hero-bg.jpg": "/Pawfect-Grooming/static/media/hero-bg.6181fa3ba10b134ac250.jpg",
+    "static/media/contact-bg.jpg": "/Pawfect-Grooming/static/media/contact-bg.31407a52d6c2b42ee289.jpg",
+    "static/media/services-bg.jpg": "/Pawfect-Grooming/static/media/services-bg.35965ffb2c9dbb9b28be.jpg",
+    "index.html": "/Pawfect-Grooming/index.html",
+    "main.fb7376ec.css.map": "/Pawfect-Grooming/static/css/main.fb7376ec.css.map",
+    "main.3a3d418d.js.map": "/Pawfect-Grooming/static/js/main.3a3d418d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb7376ec.css",
+    "static/js/main.3a3d418d.js"
+  ]
+}

@@ -64,29 +64,28 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="about-team">
+      {/* Results Section */}
+      <section className="about-results">
         <div className="container">
-          <h2>{aboutPage.team.title}</h2>
-          <div className="team-grid">
-            {aboutPage.team.members.map((member) => (
+          <h2>{aboutPage.results.title}</h2>
+          <div className="results-grid">
+            {aboutPage.results.results.map((result) => (
               <motion.div
-                key={member.id}
-                className="team-member"
+                key={result.id}
+                className="result-item"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <div className="team-member__image">
-                  <img
-                    src={member.image}
-                    alt={member.name}
+                <div className="result-item__image">
+                  <img 
+                    src={require(`../images/services/${result.id === 1 ? "resultat1.webp" : 
+                               result.id === 2 ? "resultat2.webp" : 
+                               "resultat3.webp"}`)}
+                    alt={`Résultat ${result.id}`} 
                   />
                 </div>
-                <h3>{member.name}</h3>
-                <p className="team-member__role">{member.role}</p>
-                <p className="team-member__bio">{member.description}</p>
               </motion.div>
             ))}
           </div>
